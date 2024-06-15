@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bible/static/css/main.9440312f.css",
-    "main.js": "/bible/static/js/main.4ac9b6ff.js",
+    "main.css": "/bible/static/css/main.6db4b07e.css",
+    "main.js": "/bible/static/js/main.e15083ed.js",
     "index.html": "/bible/index.html",
-    "main.9440312f.css.map": "/bible/static/css/main.9440312f.css.map",
-    "main.4ac9b6ff.js.map": "/bible/static/js/main.4ac9b6ff.js.map"
+    "main.6db4b07e.css.map": "/bible/static/css/main.6db4b07e.css.map",
+    "main.e15083ed.js.map": "/bible/static/js/main.e15083ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.9440312f.css",
-    "static/js/main.4ac9b6ff.js"
+    "static/css/main.6db4b07e.css",
+    "static/js/main.e15083ed.js"
   ]
 }
