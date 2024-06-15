@@ -1,21 +1,16 @@
 import 'animate.css';
-import React from "react";
-import "./BackgroundVideo.css";
-import Login from"../Background/Login";
+import React from 'react';
+import './BackgroundVideo.css';
 
-const BackgroundVideo = () => {
+const BackgroundVideo = ({ children }) => {
   return (
     <div className="video-background-container">
-
       <video className="background-video" autoPlay loop muted>
         <source src="motion.mp4" type="video/mp4" />
       </video>
-
-
       <div className="content-overlay">
-        <Login/>
+        {children}
       </div>
-
     </div>
   );
 };
