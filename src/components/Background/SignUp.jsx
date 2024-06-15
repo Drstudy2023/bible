@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 const SignUp = ({ toggleView }) => {
   return (
-    <div style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", width: "100%", maxWidth: "500px", padding: "20px", borderRadius: "10px", margin: "0 auto" }}>
+    <div class="animate__animated animate__zoomInDown" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)", width: "100%", maxWidth: "500px", padding: "20px", borderRadius: "10px", margin: "0 auto" }}>
       <h1>Welcome</h1>
       <Form>
         <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
