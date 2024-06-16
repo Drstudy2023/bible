@@ -20,7 +20,7 @@ function NavbarExample() {
       }}
     >
       <Container fluid>
-        <Navbar.Brand style={{color:"white"}} href="#">BIBLE</Navbar.Brand>
+        <Navbar.Brand style={{color:"white"}} href="#">HolyScript</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="me-auto">
