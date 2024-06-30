@@ -20,23 +20,19 @@ function NavbarExample() {
       }}
     >
       <Container fluid>
-        <Navbar.Brand style={{color:"white"}} href="#">HolyScript</Navbar.Brand>
+        <Navbar.Brand style={{color:"white"}}>
+          <img src="icon1.svg" width="30" height="30" alt="Icon" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link style={{ color: "white" }} href="#action1">coming soon...</Nav.Link>
-            <Nav.Link style={{ color: "white" }} href="#action2">coming soon...</Nav.Link>
-            <Nav.Link style={{ color: "white" }} href="#action3">coming soon...</Nav.Link>
-            <Nav.Link style={{ color: "white" }} href="#action4">coming soon...</Nav.Link>
+            <Nav.Link style={{ color: "yellow", fontWeight: "bold" }} href="/Login_or_Register">Start learning</Nav.Link>
+            <Nav.Link style={{ color: "#C0EBF0", fontWeight: "bold" }} href="/Request">Request</Nav.Link>
+            <Nav.Link style={{ color: "#C0EBF0", fontWeight: "bold" }} href="/Help_Center">Help Center</Nav.Link>
+            <Nav.Link style={{ color: "#C0EBF0", fontWeight: "bold" }} href="/about_Us">About Us</Nav.Link>
           </Nav>
-
           <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
+            <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
             <Button variant="outline-light">Search</Button>
           </Form>
         </Navbar.Collapse>
